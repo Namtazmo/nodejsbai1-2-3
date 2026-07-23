@@ -1,0 +1,27 @@
+{
+  "name": "bai1",
+  "version": "1.0.0",
+  "description": "hoc bai so 1",
+  "homepage": "https://github.com/Namtazmo/nodejsbai1-2-3#readme",
+  "bugs": {
+    "url": "https://github.com/Namtazmo/nodejsbai1-2-3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Namtazmo/nodejsbai1-2-3.git"
+  },
+  "license": "ISC",
+  "author": "nam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
